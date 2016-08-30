@@ -140,9 +140,11 @@ class BackBeeRequirements
             'Your version of PHP was compiled with <em>--disable-tokenizer</em>, please recompile it without this option.'
         );
 
+        $dateTimeZone = ini_get('date.timezone');
+
         $requirements[] = new Requirement(
             false,
-            empty(ini_get('date.timezone')),
+            empty($dateTimeZone),
             'Default timezone set',
             'We strongly recommend you to set a default timezone<br/>(see <a href="http://php.net/manual/en/datetime.configuration.php#ini.date.timezone" target="_blank">http://php.net/manual/en/datetime.configuration.php#ini.date.timezone</a>).',
             false,
