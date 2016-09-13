@@ -1,5 +1,5 @@
 {
-    "name": "backbee/backbee-standard",
+    "name": "backbee/backbee-cms",
     "description": "BackBee CMS Standard Edition distribution",
     "keywords": ["CMS", "Core", "Content Management", "No backend CMS", "User Management"],
     "type": "project",
@@ -12,10 +12,10 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "backbee/backbee": "~1.1.0",
-        "backbee/script-handler": "~1.1.0",
-        "backbee/demo-bundle": "~1.1.0",
-        "backbee/toolbar-bundle": "~1.1.0",
+        "backbee/backbee-php": "~1.2.0",
+        "backbee/composer-handler": "~1.2.0",
+        "backbee/demo-bundle": "~1.2.0",
+        "backbee/toolbar-bundle": "~1.2.0",
         "badcow/lorem-ipsum": "~1.1.0",
         "eric-chau/bijective": "dev-master"
     },
