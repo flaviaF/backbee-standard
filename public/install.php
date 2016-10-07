@@ -54,11 +54,11 @@ switch ($step) {
 
         file_put_contents(dirname(__DIR__).'/repository/Config/bootstrap.yml', $yaml->dump($bootstrap));
 
-        $servicesPath = realpath(__DIR__.'/../repository/Config/services.yml');
+        $servicesPath = dirname(__DIR__).'/repository/Config/services.yml';
         if (file_exists($servicesPath)) {
             $services = $yaml->parse($servicesPath);
         } else {
-            $services = ['parameters'];
+            $services = ['parameters' => []];
         }
 
         $services['parameters']['bbapp.cache.dir'] = realpath(__DIR__.'/../cache');
