@@ -1,15 +1,13 @@
 [![Stories in Ready](https://badge.waffle.io/backbee/backbee-standard.png?label=ready&title=Ready)](https://waffle.io/backbee/backbee-standard)
 # BackBee CMS Standard Edition
 
-[![Join the chat at https://gitter.im/backbee/backbee-standard](https://badges.gitter.im/backbee/backbee-standard.svg)](https://gitter.im/backbee/backbee-standard?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ## Overview ##
 
-BackBee is an open-source content management system. Because it incorporates HTML5 programming to an unprecedented extent, its usability and design flexibility surpasses all other content management systems that we know of.
+BackBee CMS is an open-source content management system. Because it incorporates HTML5 programming to an unprecedented extent, its usability and design flexibility surpasses all other content management systems that we know of.
 
 All changes in content – adding, deleting or changing text, images or new page elements – can be made directly on the page. Just click and type, or drag and drop. No back office. No shuttling back and forth between the back end and a “preview” page that often fails to match the final page display.
 
-BackBee offers what we like to call WYSIWYRG, What You See Is What You Really Get. And because it automatically saves different page versions, there’s no fear of losing changes along the way. If only everything in life could be this easy and secure.
+BackBee CMS offers what we like to call WYSIWYRG, What You See Is What You Really Get. And because it automatically saves different page versions, there’s no fear of losing changes along the way. If only everything in life could be this easy and secure.
 
 
 :speech_balloon: If you want to have more information about the project progression you can take a look at the actual [Roadmap](https://waffle.io/backbee/backbee-standard).
@@ -27,9 +25,8 @@ BackBee offers what we like to call WYSIWYRG, What You See Is What You Really Ge
 
 :book: Documentation for api is available, and you can also follow BlogBee, a tutorial to help you make a complete website with BackBee CMS.
 
- - **[Developer PHP Api docs](http://api.backbee.com)**
- - **[BlogBee (tutorial)](http://blogbee.backbee.com)**
- - **[Video tutorials](http://www.backbee.com/get-started/video-tutorials)**
+ - **[Developer PHP Api docs](http://developers.backbee.com/api)**
+ - **[Video tutorials](http://developers.backbee.com/get-started/video-tutorials)**
 
 If you want to generate some fake categories and articles, you can use this command:
 
@@ -106,13 +103,13 @@ You need to install php-formatter before.
 
 ### Deciders & mergers
 
-BackBee have a core team who have rights on repositories.
+BackBee CMS have a core team who have rights on repositories.
 * Only mergers can merge your work on master branch;
 * If one of the deciders gives a ``:-1:`` on your suggestion, the pull request won't be merged until he changes his mind;
 
 Current mergers are @eric-chau and @crouillon, current deciders are @ndufreche and @fkroockmann, @hbaptiste, @mickaelandrieu.
 
-All the core team is here to help you if you want to improve BackBee, we love contribution :)
+All the core team is here to help you if you want to improve BackBee CMS, we love contribution :)
 
 
 Thank you!
